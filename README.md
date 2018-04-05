@@ -9,8 +9,9 @@ Call it an FTP client, an S3 viewer or a Dropbox like web app, Nuage leverages y
 
 ![screenshot](https://raw.githubusercontent.com/mickael-kerjean/nuage/master/.assets/img/photo.jpg)
 
-# Demo
-[Nuage Demo](https://nuage.kerjean.me)
+<h1 align="center">
+  <a href="https://nuage.kerjean.me"> DEMO </a>
+</h1>
 
 # Features
 - manage your files directly from your browser
@@ -39,9 +40,6 @@ Credentials are stored in your browser in a http only cookie encrypted using aes
 The "remember me" feature relies on localstorage to store your credentials encrypted using aes-256-cbc.
 
 Note that on the FTP and sFTP, sessions connections aren't destroyed on every request but are reused and killed after 2 minutes. The reasoning is connections are expensive to create and this trick make the entire application feel much much faster for users who tries to navigate.
-
-# Known Issues
-- Google Drive: Google Drive lets you add multiple files with the same name in the same directory. You won't be able to see all those in Nuage as we assume that all filenames in a directory are unique.
 
 # Licensing
 Nuage is an open source software with its source code available under the AGPL license. Commercial license and support is available upon request, contact me for details: mickael@kerjean.me
